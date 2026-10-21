@@ -179,7 +179,7 @@
     u.parentNode.insertBefore(r,u);})(window,document,
     'script');
     
-    // استبدل النص أدناه بمعرّف البيكسل الخاص بك من مدير إعلانات سناب شات
+    // استبدل الـ ID الخاص بك هنا
     snaptr('init', 'YOUR_SNAPCHAT_PIXEL_ID', {
         'user_email': ''
     });
@@ -228,6 +228,18 @@
             <a onclick="openModal()">سياسة الخصوصية</a>
         </p>
     </footer>
+
+    <!-- الأزرار العائمة للواتساب والاتصال -->
+    <div style="position: fixed; bottom: 20px; left: 20px; z-index: 9999; display: flex; flex-direction: column; gap: 10px;">
+        <!-- زر الاتصال المباشر -->
+        <a href="tel:+966555689735" style="background-color: #0284c7; color: white; width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; text-decoration: none; box-shadow: 0 4px 10px rgba(0,0,0,0.3); font-size: 24px;" title="اتصال مباشر">
+            📞
+        </a>
+        <!-- زر الواتساب -->
+        <a href="https://wa.me/966555689735?text=السلام%20عليكم،%20أرغب%20في%20الاستفسار%20عن%20خدمات%20الخزانات" style="background-color: #22c55e; color: white; width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; text-decoration: none; box-shadow: 0 4px 10px rgba(0,0,0,0.3); font-size: 26px;" target="_blank" title="واتساب">
+            💬
+        </a>
+    </div>
 
     <!-- نافذة سياسة الخصوصية -->
     <div id="privacyModal" class="modal">
