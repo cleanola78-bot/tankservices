@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>خدمات تنظيف وعزل الخزانات</title>
+    <!-- خط تجوال -->
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #0284c7;
+            --primary-dark: #0369a1;
+            --secondary: #0d9488;
+            --dark: #1e293b;
+            --light: #f8fafc;
+            --gray: #64748b;
+        }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Tajawal', sans-serif;
+        }
+        body {
+            background-color: var(--light);
+            color: var(--dark);
+            line-height: 1.7;
+        }
+        header {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            padding: 4rem 1rem 3rem 1rem;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.2rem;
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+        header p {
+            font-size: 1.1rem;
+            max-width: 600px;
+            margin: 0 auto;
+            opacity: 0.95;
+        }
+        .container {
+            max-width: 900px;
+            margin: -2rem auto 3rem auto;
+            padding: 0 1rem;
+        }
+        .card {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+            padding: 2.5rem;
+            margin-bottom: 2rem;
+        }
+        h2 {
+            color: var(--dark);
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+            text-align: center;
+            position: relative;
+            padding-bottom: 0.5rem;
+        }
+        h2::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60px;
+            height: 3px;
+            background-color: var(--primary);
+            border-radius: 3px;
+        }
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+        .service-item {
+            background: var(--light);
+            padding: 1.5rem;
+            border-radius: 8px;
+            border-right: 4px solid var(--primary);
+        }
+        .service-item h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+            color: var(--dark);
+        }
+        .service-item p {
+            font-size: 0.95rem;
+            color: var(--gray);
+        }
+        .cta-box {
+            text-align: center;
+            margin-top: 2rem;
+        }
+        .btn-whatsapp {
+            display: inline-block;
+            background-color: #22c55e;
+            color: white;
+            padding: 0.9rem 2.5rem;
+            font-size: 1.1rem;
+            font-weight: 700;
+            border-radius: 50px;
+            text-decoration: none;
+            box-shadow: 0 4px 12px rgba(34, 197, 94, 0.3);
+            transition: background 0.3s ease;
+        }
+        .btn-whatsapp:hover {
+            background-color: #16a34a;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem 1rem;
+            color: var(--gray);
+            font-size: 0.9rem;
+            border-top: 1px solid #e2e8f0;
+        }
+        footer a {
+            color: var(--primary);
+            text-decoration: none;
+            margin: 0 0.5rem;
+            cursor: pointer;
+        }
+        /* نافذة سياسة الخصوصية المنبثقة */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.5);
+            align-items: center;
+            justify-content: center;
+            padding: 1rem;
+        }
+        .modal-content {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            max-width: 600px;
+            width: 100%;
+            max-height: 80vh;
+            overflow-y: auto;
+            position: relative;
+        }
+        .close-btn {
+            position: absolute;
+            top: 1rem;
+            left: 1rem;
+            font-size: 1.5rem;
+            cursor: pointer;
+            color: var(--gray);
+        }
+        .modal-content h3 {
+            margin-bottom: 1rem;
+            color: var(--dark);
+        }
+        .modal-content p, .modal-content li {
+            font-size: 0.95rem;
+            color: var(--gray);
+            margin-bottom: 0.8rem;
+        }
+    </style>
+
+    <!-- Snap Pixel Code -->
+    <script type='text/javascript'>
+    (function(e,t,n){if(e.snaptr)return;var a=e.snaptr=function()
+    {a.handleRequest?a.handleRequest.apply(a,arguments):a.queue.push(arguments)};
+    a.queue=[];var s='https://sc-static.net/scevent.min.js';var r=t.createElement(n);
+    r.async=!0;r.src=s;var u=t.getElementsByTagName(n)[0];
+    u.parentNode.insertBefore(r,u);})(window,document,
+    'script');
+    
+    // استبدل النص أدناه بمعرّف البيكسل الخاص بك من مدير إعلانات سناب شات
+    snaptr('init', 'YOUR_SNAPCHAT_PIXEL_ID', {
+        'user_email': ''
+    });
+    snaptr('track', 'PAGE_VIEW');
+    </script>
+    <!-- End Snap Pixel Code -->
+</head>
+<body>
+
+    <header>
+        <h1>خدمات تنظيف وعزل الخزانات</h1>
+        <p>نقدم أعمال الغسيل، التعقيم، تطبيق مواد العزل المائي، وكشف تسربات المياه بأحدث المعايير الفنية.</p>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <h2>خدماتنا التشغيلية</h2>
+            <div class="services-grid">
+                <div class="service-item">
+                    <h3>الغسيل والتعقيم</h3>
+                    <p>إزالة الرواسب والشوائب باستخدام مواد غسيل مخصصة وآمنة للمياه.</p>
+                </div>
+                <div class="service-item">
+                    <h3>أعمال العزل المائي</h3>
+                    <p>تطبيق طبقات العزل الفعّالة لحماية الهياكل ومنع تسربات المياه.</p>
+                </div>
+                <div class="service-item">
+                    <h3>كشف التسربات وفحص الفاقد</h3>
+                    <p>فحص فني دقيق لتحديد مواقع التسربات وإصلاحها بمهنية.</p>
+                </div>
+                <div class="service-item">
+                    <h3>الصيانة العامة للعوامات</h3>
+                    <p>فحص وإصلاح التوصيلات والصمامات والأجزاء الداخلية.</p>
+                </div>
+            </div>
+
+            <div class="cta-box">
+                <a href="https://wa.me/966555689735?text=السلام%20عليكم،%20أرغب%20في%20الاستفسار%20عن%20خدمات%20الخزانات" class="btn-whatsapp" target="_blank">تواصل عبر الواتساب</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2026 خدمات تنظيف وعزل الخزانات. جميع الحقوق محفوظة.</p>
+        <p style="margin-top: 0.5rem;">
+            <a onclick="openModal()">سياسة الخصوصية</a>
+        </p>
+    </footer>
+
+    <!-- نافذة سياسة الخصوصية -->
+    <div id="privacyModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal()">&times;</span>
+            <h3>سياسة الخصوصية</h3>
+            <p>نحن نحترم خصوصيتك ونلتزم بحماية بياناتك الشخصية عند تصفح موقعنا أو التواصل معنا.</p>
+            <p><strong>البيانات التي نجمعها:</strong> نقوم بجمع معلومات الاتصال الأساسية مثل أرقام الهواتف أو محادثات الواتساب فقط عند قيامك بالتواصل معنا بصورة مباشرة لطلب الخدمة.</p>
+            <p><strong>استخدام ملفات تعريف الارتباط (Cookies):</strong> نستخدم تقنيات التتبع وأكواد التحليل (مثل Snap Pixel) لقياس وتحسين أداء الحملات الإعلانية وتجربة الاستخدام.</p>
+            <p><strong>مشاركة البيانات:</strong> لا نقوم ببيع أو مشاركة بيانات الزوار مع أي جهات خارجية تسويقية.</p>
+        </div>
+    </div>
+
+    <script>
+        function openModal() {
+            document.getElementById('privacyModal').style.display = 'flex';
+        }
+        function closeModal() {
+            document.getElementById('privacyModal').style.display = 'none';
+        }
+        window.onclick = function(event) {
+            var modal = document.getElementById('privacyModal');
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>
